@@ -1,12 +1,11 @@
-// WA
 #include <iostream>
 using namespace std;
 
 int main()
 {
     int k; cin >> k;
-    int m = 1, n = 101, mp, np;
-    for (int i = 1; i <= k; i++)
+    int m = -1, n = 10886, mp, np;
+    for (int i = 1; i <= k; ++i)
     {
         int t; cin >> t;
         if (t > m) {mp = i, m = t;}

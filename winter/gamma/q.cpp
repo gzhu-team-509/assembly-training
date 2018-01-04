@@ -6,12 +6,12 @@ int main()
 {
     int n, t; cin >> n >> t;
 
-    int begin = pow(10, n - 1), end = pow(10, n);
-
-    bool ok = false;
-    for (int i = begin; !ok && i < end; ++i)
+    if (n == 1 && t == 10) cout << -1;
+    else
     {
-        if (i % t == 0) cout << i, ok = true;
+        if (t == 10) t = 1;
+        cout << t;
+        while(--n) cout << 0;
     }
-    cout << (ok ? "" : "-1") << endl;
+    cout << endl;
 }

@@ -4,4 +4,6 @@ https://vjudge.net/contest/160735
 
 ## 总结
 
-// To be Added
+- **实现** `B` `D`
+- **逻辑** `A` `F`
+- **STL可减少代码量** `E`

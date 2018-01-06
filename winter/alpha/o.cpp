@@ -15,7 +15,8 @@ int main()
     if (tot == s.length())
         for (int i = 0; i < s.length(); ++i)
             cout << (char)tolower(s[i]);
-    else if (!first && tot == s.length() - 1) {
+    else if (!first && tot == s.length() - 1)
+    {
         cout << (char)toupper(s[0]);
         for (int i = 1; i < s.length(); ++i)
             cout << (char)tolower(s[i]);

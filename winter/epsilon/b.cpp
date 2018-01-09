@@ -2,9 +2,12 @@
 #include <algorithm>
 using namespace std;
 
-// LeaderBoard
+// 构造解法 - LeaderBoard
 // https://vjudge.net/solution/5440093
 // “往杯子里面装水”
+
+// 贪心解法 - Tutorial
+// http://codeforces.com/blog/entry/14741
 
 int main()
 {

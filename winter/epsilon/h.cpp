@@ -3,6 +3,7 @@
 using namespace std;
 using ll = long long;
 
+// n为T-Prime，当且仅当sqrt(n)为质数
 bool judge(ll n)
 {
     if (n == 1 || n == 2) return false;

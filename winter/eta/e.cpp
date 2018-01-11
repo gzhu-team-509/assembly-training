@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// 注意 n == 1 时的情况
+
 int main()
 {
     int n, m; cin >> n >> m;

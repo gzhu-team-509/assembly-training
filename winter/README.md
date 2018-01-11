@@ -8,4 +8,5 @@
 | Epsilon | https://vjudge.net/contest/164709 | |
 | Eta | https://vjudge.net/contest/171211 | |
 | Gamma | https://vjudge.net/contest/160733 | |
+| Theta | https://vjudge.net/contest/171212 |
 | Zeta | https://vjudge.net/contest/164903 |

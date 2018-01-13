@@ -2,6 +2,9 @@
 #include <cmath>
 using namespace std;
 
+// “输出任意符合条件的整数” - wangfujian
+// https://github.com/wangfujian/acm/blob/master/Beta/Beta.l.txt
+
 bool isprime(int n)
 {
     int i, range = floor(sqrt(n) + 0.5);

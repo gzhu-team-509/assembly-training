@@ -16,7 +16,7 @@ int main()
         }
     }
 
-    int mx = 1, cnt = 0;
+    int mx = 0, cnt = 0;
     for (int i = 0; i < d; ++i)
     {
         if (tot[i] < n)

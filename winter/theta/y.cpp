@@ -6,12 +6,12 @@ int main()
 {
     LL t, s, x; cin >> t >> s >> x;
 
-    bool nobarks;
+    bool barks;
     if (x < t || x == t + 1)
-        nobarks = true;
+        barks = false;
     else if ((x - t) % s == 0 || (x - 1 - t) % s == 0)
-        nobarks = false;
-    else nobarks = true;
+        barks = true;
+    else barks = false;
 
-    cout << (nobarks ? "YES" : "NO") << endl;
+    cout << (barks ? "YES" : "NO") << endl;
 }
